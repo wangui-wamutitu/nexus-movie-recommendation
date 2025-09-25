@@ -251,11 +251,6 @@ secrets/
 api_keys.txt
 credentials.json
 
-# Test files (optional - you might want to commit these)
-test_*.py
-*_test.py
-test_data/
-
 # Documentation build
 docs/_build/
 docs/build/
