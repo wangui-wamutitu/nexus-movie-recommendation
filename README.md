@@ -353,7 +353,7 @@ curl -X POST http://localhost:8000/api/auth/register/ \
 1. Set `DEBUG=False` in production
 2. Configure production database
 3. Set up Redis server
-4. Configure web server (nginx + gunicorn)
+4. Configure web server (gunicorn)
 5. Set up SSL certificates
 
 ### Production Settings
@@ -363,6 +363,7 @@ ALLOWED_HOSTS=your-domain.com,www.your-domain.com
 DATABASE_URL=postgresql://user:pass@host:5432/dbname
 REDIS_URL=redis://redis-server:6379/0
 ```
+Currently hosted at: https://nexus-movie-recommendation.onrender.com/swagger/
 
 ## Key Features Implemented
 
