@@ -16,17 +16,13 @@ django-cors-headers==4.9.0
 django-crontab==0.7.1
 django-timezone-field==7.1
 filelock==3.13.1
-flake8==7.0.0
 gunicorn==23.0.0
 kombu==5.5.4
-mccabe==0.7.0
 mysql-connector-python==9.3.0
 packaging==25.0
 parameterized==0.9.0
 platformdirs==4.1.0
 prompt_toolkit==3.0.52
-pycodestyle==2.5.0
-pyflakes==3.2.0
 python-crontab==3.3.0
 python-dateutil==2.9.0.post0
 six==1.17.0
