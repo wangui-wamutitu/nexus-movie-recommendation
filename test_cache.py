@@ -101,7 +101,7 @@ def test_cache_invalidation():
         # Clear cache (requires admin token - this is just a demonstration)
         print("2. Cache cleared (simulated)")
         
-        # Make request again (this should be slower)
+        # Make request again (should be slower)
         start_time = time.time()
         response = requests.get(f"{BASE_URL}/trending/")
         request_time = time.time() - start_time

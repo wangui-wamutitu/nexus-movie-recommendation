@@ -16,7 +16,7 @@ def test_authentication():
         "last_name": "User"
     }
     
-    # 1. Register a user
+    # 1. Register user
     print("Testing user registration...")
     try:
         response = requests.post(f"{BASE_URL}/auth/register/", json=user_data)
